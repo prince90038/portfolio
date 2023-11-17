@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Prince Chauhan - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to my Portfolio</title>
 </head>
-<body>
 
+<body id="bg-img">
     <header>
-        <div class="logo">Your Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+        <div class="menu-bar">
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a class="nav-link " href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Experienced Python Developer proficient in automating debugging tasks using Python, Pandas, ElasticSearch, Kibana, Linux, Git, and Gerrit. Demonstrated ability to develop efficient solutions and innovate to improve existing technology.
-        </p>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of project 1 goes here.</p>
+    <main id="home">
+        <h1 class="lg-heading">
+            Prince <span class="text-secondary">Chauhan</span>
+        </h1>
+        <h2>I'm a <span class="txt-type text-secondary" data-waiting-time="3000" data-words='["Pyton Developer","Automation Specialist","Problem solver","Avid Learner"]'></span>
+          </h2>
+        <div class="socials">
+            <a href="mailto:prince.chauhan.90038@gmail.com">
+                <i class="fa fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/rPrince_chauhan">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/prince90038/">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/prince90038">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.hackerrank.com/profile/prince90038">
+                <i class="fab fa-brands fa-hackerrank fa-2x"></i>
+            </a>
         </div>
-
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of project 2 goes here.</p>
-        </div>
-
-        <!-- Add more projects as needed -->
-
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: (123) 456-7890</p>
-    </section>
-
-    <script src="scripts.js"></script>
+    </main>
+    <script src=js/main.js></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c28f07619f.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
